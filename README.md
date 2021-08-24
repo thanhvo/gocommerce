@@ -8,10 +8,10 @@ The tech stack includes:
    
 ## Deployment
 First, we setup the data servers using docker-compose.   
-$\qquad$`cd docker`  
-$\qquad$`docker-compose up -d`  
+    `cd docker`  
+    `docker-compose up -d`  
 Then, we can build and run the application  
-$\qquad$`make`
+    `make`
 
 ## API Verification
 Please use tools like Postman to verify the application with following APIs:  
